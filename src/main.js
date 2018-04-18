@@ -8,8 +8,8 @@ import 'element-ui/lib/theme-chalk/index.css'
 import axios from 'axios'
 //axios.defaults.withCredentials=true
 
-// axios.defaults.baseURL = 'http://10.132.161.31:3000';
-axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'http://10.132.161.31:3000';
+// axios.defaults.baseURL = 'http://localhost:3001';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 Vue.prototype.$http = axios
 Vue.config.productionTip = true

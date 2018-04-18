@@ -34,7 +34,7 @@ export default {
     font-family: '微软雅黑'
 }
 body{
-  background: url('./img/bg_10.jpg');
+  background: url('./img/bg_4.jpg');
   background-attachment: fixed;
   background-size: cover
 }
